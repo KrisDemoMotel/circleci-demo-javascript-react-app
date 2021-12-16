@@ -11,7 +11,7 @@ Go to the Add Projects page in the CircleCI application and click the Set Up Pro
 To make changes you can edit the .circleci/config.yml file and make a commit. When you push a commit to GitHub, CircleCI will build and test the project.
 
 # Sample Configuration
-Below is the .circleci/config.yml file in the demo project.
+Below is the .circleci/config.yml file in the demo project.s
 
 ```
 orbs:

@@ -4,6 +4,7 @@ jobs:
   imajob:
     machine:
       image: 'windows-server-2022-gui:current'
+    resource_class: windows.medium
     steps:
       - run:
           command: echo "hi"

@@ -1,16 +1,11 @@
 version: 2.1
 
-orbs:
-  slack: circleci/slack@4.5.0
-
 jobs:
   imajob:
     machine:
       image: 'windows-server-2022-gui:current'
     steps:
-      - checkout
       - run:
-          name: echo hi
           command: echo "hi"
 
 workflows:

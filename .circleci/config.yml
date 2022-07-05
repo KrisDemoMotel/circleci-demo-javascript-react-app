@@ -5,8 +5,8 @@ orbs:
 
 jobs:
   imajob:
-    docker:
-      - image: cimg/node:17.1.0  
+    machine:
+      image: 'windows-server-2022-gui:current'
     steps:
       - checkout
       - run:
